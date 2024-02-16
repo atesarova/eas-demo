@@ -35,3 +35,5 @@ build:version get the latest version from EAS servers
 ```
 eas build -p ios --profile development --local
 ```
+
+### Github actions
