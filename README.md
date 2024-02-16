@@ -2,12 +2,17 @@
 
 ### Eas build
 
-USAGE
+### USAGE
+
+```
 $ eas build [-p android|ios|all] [-e <value>]
 [--local] [--output <value>] [--wait] [--clear-cache]
 [--auto-submit | --auto-submit-with-profile <value>] [-m <value>]
 [--json --non-interactive]
-COMMANDS
+```
+
+### COMMANDS
+
 build:cancel cancel a build
 build:configure configure the project to support EAS Build
 build:inspect inspect the state of the project at specific build
@@ -17,13 +22,15 @@ build:resign re-sign a build archive
 build:run run simulator/emulator builds from eas-cli
 build:view view a build for your project
 
-DESCRIPTION
+### DESCRIPTION
+
 start a build
 
-TOPICS
+### TOPICS
+
 build:version get the latest version from EAS servers
 
-Example
+### Example
 
 ```
 eas build -p ios --profile development --local
