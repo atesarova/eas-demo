@@ -11,5 +11,8 @@
     "production": {
       "channel": "production"
     }
+  },
+  "cli": {
+    "promptToConfigurePushNotifications": false
   }
 }
