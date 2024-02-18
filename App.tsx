@@ -21,6 +21,7 @@ export default function App() {
           Alert.alert("Button clicked");
         }}
       />
+      <Text>This is new feature</Text>
     </View>
   );
 }
