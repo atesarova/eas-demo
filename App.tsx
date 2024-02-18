@@ -24,6 +24,7 @@ export default function App() {
           Alert.alert("Button clicked");
         }}
       />
+      <Text>Other changes</Text>
     </View>
   );
 }
