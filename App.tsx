@@ -9,6 +9,10 @@ export default function App() {
       <Text>Test</Text>
       <Text>Test</Text>
       <Text>Test</Text>
+      <Text>Hello worlds</Text>
+      <Text>Hello worlds</Text>
+      <Text>Hello worlds</Text>
+      <Text>Hello worlds</Text>
     </View>
   );
 }
