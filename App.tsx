@@ -14,6 +14,9 @@ export default function App() {
       <Text>Hello worlds</Text>
       <Text>Hello worlds</Text>
       <Text>Other changes</Text>
+
+      <Text>Other changes</Text>
+      <Text>Other changes</Text>
     </View>
   );
 }
@@ -21,7 +24,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#e81919",
+    backgroundColor: "#b1ed0c",
     alignItems: "center",
     justifyContent: "center",
   },
