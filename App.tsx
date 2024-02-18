@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button, Alert } from "react-native";
 
 export default function App() {
   return (
@@ -14,6 +14,13 @@ export default function App() {
       <Text>Hello worlds</Text>
       <Text>Hello worlds</Text>
       <Text>Other changes</Text>
+      <Button
+        title="Click me"
+        onPress={() => {
+          console.log("Button clicked");
+          Alert.alert("Button clicked");
+        }}
+      />
     </View>
   );
 }
