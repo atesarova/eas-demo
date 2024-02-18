@@ -14,7 +14,6 @@ export default function App() {
       <Text>Hello worlds</Text>
       <Text>Hello worlds</Text>
       <Text>Other changes</Text>
-      <br />
 
       <Text>Other changes</Text>
       <Text>Other changes</Text>
